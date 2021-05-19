@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+[[ ! -f "run.sh" ]] &&  exit 100
+
+echo "run.sh exists"

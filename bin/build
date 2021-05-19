@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+echo "---> Run shell-run-cnb Buildpack"
+
+layersdir=$1
+
+chmod +x run.sh
+
+cat > "$layersdir/launch.toml" <<EOL
+[[processes]]
+type = "web"
+command = "./run.sh"
+EOL

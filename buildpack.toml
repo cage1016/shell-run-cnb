@@ -1,0 +1,24 @@
+api = "0.5"
+
+[buildpack]
+id = "cage1016/shell-run-cnb"
+name = "Run custom shell at launch"
+version = "1.0.0"
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "google"
+
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
+
+[[stacks]]
+id = "io.buildpacks.samples.stacks.bionic"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
