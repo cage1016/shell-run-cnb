@@ -1,6 +1,6 @@
 # Shell Run CNB
 
-[![Release](https://github.com/cage1016/shell-run-cnb/actions/workflows/release.yml/badge.svg)](https://github.com/cage1016/shell-run-cnb/actions/workflows/release.yml)
+![Version](https://img.shields.io/badge/dynamic/json?url=https://cnb-registry-api.herokuapp.com/api/v1/buildpacks/cage1016/shell-run-cnb&label=Version&query=$.latest.version) [![Release](https://github.com/cage1016/shell-run-cnb/actions/workflows/release.yml/badge.svg)](https://github.com/cage1016/shell-run-cnb/actions/workflows/release.yml)
 
 A [Cloud Native Buildpack](https://buildpacks.io) that run custom shell script at launch
 
